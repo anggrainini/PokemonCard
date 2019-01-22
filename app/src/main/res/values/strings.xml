@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Trading Card Game</string>
+    <string name="open_pokecard">Open Card</string>
+    <string name="type_card">Type</string>
+    <string name="poke_name">Name</string>
+    <string name="poke_hp">HP</string>
+    <string name="poke_howtoplay">How To Play</string>
+    <string name="card">Card</string>
+    <string name="deskripsi">Description</string>
+    <string name="Hpscore">HP</string>
+    <string name="damage">Damage</string>
+    <string name="poke_damage">Damage</string>
+</resources>

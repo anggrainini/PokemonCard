@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:id="@+id/pokeCard"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        tools:src="@android:color/darker_gray"
+        android:contentDescription="@string/card" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/pokeCard"
+        android:layout_toEndOf="@id/pokeCard"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/pokeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/poke_name"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:id="@+id/pokeType"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            tools:text="@string/type_card"/>
+    </LinearLayout>
+</RelativeLayout>
